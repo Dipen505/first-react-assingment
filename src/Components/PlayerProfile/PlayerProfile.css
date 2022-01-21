@@ -1,0 +1,49 @@
+.player-component {
+    display: flex;
+    /* border-right: 1px solid lightslategrey; */
+    padding: 10px;
+    /* border-bottom: 1px solid lightslategrey; */
+    margin-left: 70px;
+    background-color: rgba(58, 58, 58, 0.87);
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.player-image img{
+    height: 350px;
+    width: 250px;
+}
+.player-image img:hover {
+    cursor: pointer;
+}
+.player-detail {
+    margin-left: 25px;
+    color:#FFFFFF;
+}
+.name {
+    font-weight: 500;
+    font-size: 40px;
+    color:#FFFFFF;
+}
+.hired-button {
+    padding: 5px 10px;
+    background-color: rgba(15, 16, 19, 0.363);
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+}
+.hired-button:hover {
+    background-color: rgba(119, 136, 153, 0.596);
+    transition: 0.4s;
+}
+.dollar-sign {
+    font-size: 20px;
+    font-weight: 500;
+}
+.layer:hover {
+    background-image: rgba(226,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

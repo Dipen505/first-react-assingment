@@ -1,0 +1,14 @@
+.selected-player {
+    text-align: center;
+}
+.playerCost {
+    display: flex;
+}
+.selectedPlayer {
+    /* background-color: lightblue; */
+    margin: 5px;
+    border: 1px solid;
+}
+.player-subCart-container {
+    margin-left: 15px;
+}
